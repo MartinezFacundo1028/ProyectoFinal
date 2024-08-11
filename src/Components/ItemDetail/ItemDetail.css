@@ -1,0 +1,9 @@
+.card-img{
+    border: 5px solid;
+    border-block-color: black;
+    border-radius: 5%;
+}
+
+#div-detail{
+    background-color: greenyellow;
+}

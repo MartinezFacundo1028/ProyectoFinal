@@ -1,0 +1,31 @@
+
+/* Estilo adicional para las tarjetas del carrito */
+.cart-card {
+    border: 2px solid greenyellow; /* Borde verde amarillo */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    display: flex; /* Flexbox para alinear imagen y texto */
+    align-items: center; /* Centra verticalmente el contenido */
+    padding: 10px; /* Espacio interno alrededor del contenido */
+    margin-bottom: 15px; /* Espacio debajo de cada tarjeta */
+}
+.cart-card-img {
+    width: 100px; /* Ancho fijo para la imagen */
+    height: 100px; /* Altura fija para la imagen */
+    object-fit: cover; /* Ajusta la imagen para cubrir el área sin distorsionarse */
+    margin-right: 15px; /* Espacio entre la imagen y el contenido */
+    border-radius: 4px; /* Bordes redondeados para la imagen */
+    border: 3px solid black;
+}
+.cart-card-body {
+    flex-grow: 1; /* Permite que el contenido ocupe el espacio restante */
+}
+.cart-card-title {
+    font-size: 1.25rem; /* Tamaño de fuente más grande para el título */
+    font-weight: bold; /* Negrita para el título */
+    margin-bottom: 10px; /* Espacio debajo del título */
+}
+.cart-card-text {
+    margin-bottom: 5px; /* Espacio entre líneas de texto */
+}
+

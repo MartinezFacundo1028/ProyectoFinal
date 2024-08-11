@@ -1,0 +1,30 @@
+.card{
+    background-color: #228b22e6;
+}
+.btn-secondary {
+    background-color: #93e73e; 
+    color: rgb(15, 14, 14); 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #10b9db; 
+}
+
+.btn-primary {
+    background-color: #86c324; 
+    color: rgb(7, 7, 7); 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #e5e909; 
+}
